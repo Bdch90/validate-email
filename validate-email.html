@@ -1,0 +1,14 @@
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Validate email</title>
+</head>
+<body>
+    <script>
+        var input = prompt('');
+        var pattern = /^[A-z0-9]+[*@][A-z0-9]+(\.)[A-z0-9]+$/;
+        var result = pattern.test(input);
+        document.write(result);
+    </script>
+</body>
+</html>
